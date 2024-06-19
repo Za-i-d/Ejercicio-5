@@ -1,0 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    border: 3px solid violet;
+}
+th{
+    background-color: blueviolet;
+    color:white;
+}
+td{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid violet;
+}
+tr:nth-child(odd){
+    background-color: darkorchid;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.descripcion{
+    width: 40%;
+}
+.tarjeta{
+    background-color: white;
+}
